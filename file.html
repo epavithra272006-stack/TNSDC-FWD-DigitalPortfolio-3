@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuizzyPop - Quiz Game</title>
+  <link rel="stylesheet" href="file2.css"/>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1> QuizzyPop</h1>
+    <div id="quiz-box">
+      <h2 id="question">Loading ...</h2>
+      <div class="options" id="options"></div><br>
+      <button id="next-btn">Next Question</button>
+    </div>
+    <div id="score-box" class="hidden">
+      <h2> Your Score: <span id="score"></span>/5</h2>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
